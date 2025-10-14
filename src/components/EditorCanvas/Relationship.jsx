@@ -209,8 +209,8 @@ function CardinalityLabel({ x, y, text, r = 12, padding = 14 , color = "grey"}) 
         ry={r}
         width={textWidth + padding}
         height={r * 2}
-        fill={color}
         className="group-hover:fill-sky-600"
+        style={{fill: color}}
       />
       <text
         ref={textRef}
